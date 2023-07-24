@@ -10,12 +10,20 @@ section{
     max-height: 100vh;
 }
 
+a {
+	text-decoration: none;		
+}
+
+a:hover {
+	color: #000;		
+}
+
 /* Navbar */
 #navbar {
     display: flex;
     background-color: #fff;
     margin-bottom: 10px;
-	padding: 5px
+	padding: 10px
 }
 
 #navbar #logo {
@@ -26,6 +34,16 @@ section{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+	color: #007BFF;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	color: #007BFF;
+}
+
+#navbar a:hover {
+	color: #000;
 }
 
 #navbar div {
@@ -226,6 +244,7 @@ td {
 
 .special:hover {
 	cursor: pointer;		
+	color: white;
 }
 
 
@@ -295,3 +314,7 @@ td {
 	padding: 10px;
 }
 
+.footer-link {
+	text-decoration: none;
+	color: #007BFF;
+}
